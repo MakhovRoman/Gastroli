@@ -1,9 +1,20 @@
 <template>
-    <div>
-        <header>Header</header>
 
-        <main>Main</main>
+        <main class="main">
+            <Greeting />
+            <Team />
+            <MobileBar />
+        </main>
 
         <footer>Footer</footer>
-    </div>
+
 </template>
+
+<style lang="scss">
+.main {
+    width: 100%;
+
+    display: flex;
+	flex-direction: column;
+}
+</style>
