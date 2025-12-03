@@ -6,3 +6,17 @@
 button {
     outline: none;
 }
+
+h1, h2, p {
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Open Sauce', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Open Sauce', sans-serif;
+}

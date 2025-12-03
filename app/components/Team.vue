@@ -69,8 +69,9 @@
 		& p {
 			color: white;
 			font-family: 'Open Sauce', sans-serif;
-			font-size: 22px;
+			font-size: 20px;
 			word-spacing: 0.5rem;
+			font-weight: 500;
 		}
 
 		& p + p {

@@ -38,13 +38,12 @@
 		}
 
 		h2 {
-			font-size: 40px;
 			margin-bottom: 100px;
 		}
 
 		p {
-			font-size: 22px;
-			width: 600px;
+			font-size: 20px;
+			width: 500px;
 		}
 
 		p + p {

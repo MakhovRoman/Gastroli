@@ -1,12 +1,19 @@
+<script setup lang="ts">
+import HowToCalculate from '~/components/HowToCalculate.vue';
+
+</script>
+
 <template>
 
-        <main class="main">
-            <Greeting />
-            <Team />
-            <MobileBar />
-        </main>
+    <main class="main">
+        <Greeting />
+        <Team />
+        <MobileBar />
+        <Facts />
+        <HowToCalculate />
+    </main>
 
-        <footer>Footer</footer>
+    <footer>Footer</footer>
 
 </template>
 
