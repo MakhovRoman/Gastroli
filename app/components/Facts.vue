@@ -1,6 +1,6 @@
 <template>
 	<section class="facts">
-		<div class="facts__wrapper">
+		<div class="facts__wrapper fade-in">
 			<div class="facts__content">
 				<h2>НАСТОЯЩИЙ ВКУС ОПЫТА</h2>
 				<p>
@@ -34,10 +34,9 @@
 
 <style lang="scss" scoped>
 .facts {
-	width: 100%;
 	background-image: url('/img/8_1.webp');
-	background-size: 100%;
 	aspect-ratio: 4269/2400;
+	background-size: cover;
 
 	&__wrapper {
 		padding-top: 56px;

@@ -1,6 +1,6 @@
 <template>
 	<section class="team">
-		<div class="team__wrapper">
+		<div class="team__wrapper fade-in">
 			<div class="team__content">
 				<div style="width: 350px; height: 450px; background-color: red; display: flex; flex-shrink: 0; align-self: center;"></div>
 				<div>
@@ -38,10 +38,9 @@
 
 <style lang="scss" scoped>
 .team {
-	width: 100%;
 	background-image: url('/img/4.webp');
-	background-size: 100%;
 	aspect-ratio: 4269/2400;
+	background-size: cover;
 
 	&__wrapper {
 		height: calc(100% - 64px * 2);
@@ -53,7 +52,6 @@
 		gap: 20px;
 
 		& h2 {
-			color: white;
 			font-size: 56px;
 			font-family: 'League Gothic';
 			font-weight: 500;
@@ -67,11 +65,7 @@
 		gap: 60px;
 
 		& p {
-			color: white;
-			font-family: 'Open Sauce', sans-serif;
-			font-size: 20px;
 			word-spacing: 0.5rem;
-			font-weight: 500;
 		}
 
 		& p + p {

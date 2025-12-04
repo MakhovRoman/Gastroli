@@ -4,11 +4,9 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: ['@nuxt/image', '@nuxt/eslint', '@nuxt/fonts'],
 	fonts: {
-		provider: 'bunny',
+		provider: 'google',
 		families: [
-			{ name: 'Open Sauce', style: 'sans-serif' },
 			{ name: 'League Gothic' },
-			{ name: 'Evolve Sans' },
 		],
 		defaults: {
 			styles: ['normal'],

@@ -4,7 +4,7 @@
             <div>
                 <h2>COCKTAIL CATERING</h2>
                 <h1>GASTROLI</h1>
-                <h3>КОКТЕЙЛИ, КОТОРЫЕ ГОВОРЯТ ЗА НАС.</h3>
+                <h2>КОКТЕЙЛИ, КОТОРЫЕ ГОВОРЯТ ЗА НАС.</h2>
             </div>
 
             <NuxtLink to="#" class="greeting__link">
@@ -36,9 +36,7 @@
 .greeting {
     width: 100%;
     aspect-ratio: 1423/800;
-    color: white;
     background-image: url('/img/2.webp');
-    background-size: 100%;
 
     &__content {
         display: flex;
@@ -51,14 +49,17 @@
     h1 {
         font-family: 'League Gothic';
         font-size: 210px;
-        line-height: 170px;
+        line-height: 150px;
         font-weight: 400;
     }
 
-    h2, h3 {
-        font-family: 'Open Sauce', sans-serif;
+    h2{
         font-size: 26px;
         font-weight: 600;
+    }
+
+    h2:last-child {
+        margin-top: 8px;
     }
 }
 
