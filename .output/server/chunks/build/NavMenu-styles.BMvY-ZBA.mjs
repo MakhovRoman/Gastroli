@@ -1,0 +1,19 @@
+import { p as publicAssetsURL } from '../nitro/nitro.mjs';
+import 'node:http';
+import 'node:https';
+import 'node:events';
+import 'node:buffer';
+import 'node:fs';
+import 'node:path';
+import 'node:crypto';
+import 'node:url';
+import 'ipx';
+
+const NavMenu_vue_vue_type_style_index_0_scoped_56fb2b21_lang = '@font-face{font-family:League Gothic;src:local("League Gothic Regular"),local("League Gothic"),url(' + publicAssetsURL("/_fonts/1ZTlEDqU4DtwDJiND8f6qaugUpa0RIDvQl-v7iM6l54-BA63ihXUyA3o_fxbSIyU5U3wRoDPQQp11ENPC_aP1jg.woff") + ') format(woff);font-display:swap;font-weight:400;font-style:normal}@font-face{font-family:"League Gothic Fallback: BlinkMacSystemFont";src:local("BlinkMacSystemFont");size-adjust:63.3848%;ascent-override:152.6392%;descent-override:36.6807%;line-gap-override:0%}@font-face{font-family:"League Gothic Fallback: Segoe UI";src:local("Segoe UI");size-adjust:59.5454%;ascent-override:162.4811%;descent-override:39.0459%;line-gap-override:0%}@font-face{font-family:"League Gothic Fallback: Helvetica Neue";src:local("Helvetica Neue");size-adjust:58.6667%;ascent-override:164.9148%;descent-override:39.6307%;line-gap-override:0%}@font-face{font-family:"League Gothic Fallback: Arial";src:local("Arial");size-adjust:59.2193%;ascent-override:163.3759%;descent-override:39.2609%;line-gap-override:0%}@font-face{font-family:"League Gothic Fallback: Noto Sans";src:local("Noto Sans");size-adjust:55.6962%;ascent-override:173.7102%;descent-override:41.7443%;line-gap-override:0%}@font-face{font-family:League Gothic;src:local("League Gothic Regular"),local("League Gothic"),url(' + publicAssetsURL("/_fonts/L_znwVANacpvo9UioR8djPBkIAIGQ2IioZKTppHbY7w-tjV88A_Nkp2ddatHC0g1wFW7DyMp94PpmNe23evdxvw.woff2") + ') format(woff2);font-display:swap;unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-weight:400;font-style:normal}@font-face{font-family:League Gothic;src:local("League Gothic Regular"),local("League Gothic"),url(' + publicAssetsURL("/_fonts/jyPzbrSflY63ubxM8Tt5jiK_3fbPVjFZnuetx3lfMzY-7VtV32z2rw4VlcItexwo3XMz1SslWTPTZn43tgM7sGI.woff2") + ') format(woff2);font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-weight:400;font-style:normal}@font-face{font-family:League Gothic;src:local("League Gothic Regular"),local("League Gothic"),url(' + publicAssetsURL("/_fonts/PSJbSnAsHuvIzFq9TI9w3SNcWDvIo8OVgkavQMipnz4-dBKCNWmDpMIzqJFgdOWeK6yMQwM26EJ_jT-tLiXvAWk.woff2") + ') format(woff2);font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-weight:400;font-style:normal}.aside[data-v-56fb2b21]{background-color:#000;border-right:1px solid #fff;height:100vh;max-height:calc(100vh - env(safe-area-inset-bottom) - env(safe-area-inset-top));padding:24px;position:fixed;width:220px}ul[data-v-56fb2b21]{display:flex;flex-direction:column;font-size:18px;gap:12px;list-style-type:none;margin-top:50px}h1[data-v-56fb2b21]{font-family:League Gothic,"League Gothic Fallback: BlinkMacSystemFont","League Gothic Fallback: Segoe UI","League Gothic Fallback: Helvetica Neue","League Gothic Fallback: Arial","League Gothic Fallback: Noto Sans";font-size:80px;font-weight:400;line-height:60px}h2[data-v-56fb2b21]{font-size:14px;font-weight:500;line-height:14px}a[data-v-56fb2b21]{color:#fff;text-decoration:none}';
+
+const NavMenuStyles_BMvYZBA = [
+  NavMenu_vue_vue_type_style_index_0_scoped_56fb2b21_lang
+];
+
+export { NavMenuStyles_BMvYZBA as default };
+//# sourceMappingURL=NavMenu-styles.BMvY-ZBA.mjs.map
